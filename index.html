@@ -1,0 +1,485 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Leandro Vedia DWT2A 2021</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/estilos.css">
+</head>
+
+<body>
+
+    <header class="container-fluid fondo2">
+        <div class="container px-0">
+        <h1 id="logo">Electronic Cares</h1>
+        <nav class="row navbar navbar-expand-lg fondo2 py-4">
+            <div class="container-fluid">
+
+                <button class="navbar-toggler navbar-dark ms-auto" type="button" data-bs-toggle="collapse" data-bs-target="#burger"
+                    aria-controls="burger" aria-expanded="false" aria-label="menú hamburguesa">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <div class="collapse navbar-collapse" id="burger">
+                    <ul class="navbar-nav navbar-dark nav-pills centrar ms-auto mt-4 mt-lg-0 me-lg-5">
+                        <li class="nav-item">
+                            <a class="nav-link" href="#nosotros" data-ancla="0">Nosotros</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#cuidados" data-ancla="0">Cuidados</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#recomendaciones" data-ancla="0">Recomendaciones</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#ideas" data-ancla="0">Ideas</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#contacto" data-ancla="0">Contacto</a>
+                        </li>
+                    </ul>
+                </div>
+
+            </div>
+        </nav>
+        </div>
+
+    </header>
+
+    <section class="container-fluid px-0 fondo1">
+        <div class="container px-0">
+            <div id="portadas" class="carousel carousel-dark slide carousel-fade" data-bs-ride="carousel">
+                <div class="carousel-indicators">
+                    <button type="button" data-bs-target="#portadas" data-bs-slide-to="0" class="active"
+                        aria-current="true" aria-label="Portada 1"></button>
+                    <button type="button" data-bs-target="#portadas" data-bs-slide-to="1"
+                        aria-label="Portada 2"></button>
+                    <button type="button" data-bs-target="#portadas" data-bs-slide-to="2"
+                        aria-label="Portada 3"></button>
+                </div>
+                <ul class="carousel-inner px-0">
+                    <li class="carousel-item active">
+                        <picture>
+                            <source media="(max-width:576px)" srcset="imagenes/banner/banner_mobile-01.png">
+                            <source media="(max-width:992px)" srcset="imagenes/banner/banner_tablet-01.png">
+                            <img src="imagenes/banner/banner_desktop-01.png" class="d-block w-100" alt="Personas">
+                        </picture>
+                        <div class="carousel-caption">
+                            <h2 class="d-none d-sm-block h1 fw-bold">Electronic Cares</h2>
+                            <p class="d-none d-lg-block">Un lugar donde poder reunir diferentes ideas, productos y cuidados que ayuden a
+                                transformar el clásico escritorio de trabajo/estudio en una zona de relax y confort.
+                            </p>
+                        </div>
+                    </li>
+                    <li class="carousel-item">
+                        <picture>
+                            <source media="(max-width:576px)" srcset="imagenes/banner/banner_mobile-02.png">
+                            <source media="(max-width:992px)" srcset="imagenes/banner/banner_tablet-02.png">
+                            <img src="imagenes/banner/banner_desktop-02.png" class="d-block w-100" alt="Hombre con trofeo">
+                        </picture>
+                        <div class="carousel-caption">
+                            <h2 class="d-none d-sm-block h1 fw-bold">Beneficios</h2>
+                            <p class="d-none d-lg-block">Conviertete en un lider de la salud frente a la computadora. Asesórate, investiga y recomienda a tus amigos y familiares.</p>
+                        </div>
+                    </li>
+                    <li class="carousel-item">
+                        <picture>
+                            <source media="(max-width:576px)" srcset="imagenes/banner/banner_mobile-03.png">
+                            <source media="(max-width:992px)" srcset="imagenes/banner/banner_tablet-03.png">
+                            <img src="imagenes/banner/banner_desktop-03.png" class="d-block w-100" alt="Mujer hablando por telefono">
+                        </picture>
+                        <div class="carousel-caption">
+                            <h2 class="d-none d-sm-block h1 fw-bold">Productivo</h2>
+                            <p class="d-none d-lg-block">Impulsa tu área de trabajo para más comodidad, prioriza el confort y aumentando tu nivel de productividad.</p>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+
+    <main>
+        <span id="nosotros" class="ancla2"></span>
+        <div class="container">
+            <h2 class="centrar mt-5 fw-bold fs-1">Nosotros</h2>
+            <div class="row">
+
+                <div class="col-lg-6 bg-image nosotros mb-5 mb-lg-0" id="cuadro"></div>
+
+                <p class="col-lg-6 text-center text-xl-start my-xl-auto my-lg-auto">Somos una familia, nos apasiona pensar en como mejorar nuestros hábitos y cuidados frente al creciente uso de computadoras, uniendo las ideas de quienes quieren distribuir bienestar, con la gente que las espera.<br />En la actualidad nuestras ideas y recomendaciones llegan a millones de corazones y hogares de todo el mundo.</p>
+            </div>
+        </div>
+
+        <span id="cuidados" class="ancla"></span>
+        <div class="container">
+            <h2 class="centrar mt-5 fw-bold fs-1">Cuidados</h2>
+            <ul class="row row-cols-1 row-cols-lg-2 p-0 listitem">
+                <li class="col d-flex align-items-stretch">
+                    <div class="card m-2 border-0">
+                        <img class="card-img-top my-3" src="imagenes/cuidados/posturas.png" alt="ilustracion espalda"
+                            style="height: 85px; width: 82px; margin: auto;">
+                        <div class="card-body">
+                            <h3 class="card-title h3 centrar mb-3">Posturas</h3>
+                            <p class="card-text text-start">Para que evites dolores y fatigas musculares debes mantener
+                                todas las zonas d el cuerpo de la siguiente forma:<br />
+                                <strong>Cuello:</strong> mantén la mirada siempre hacia el frente, evitando doblar el
+                                cuello, la parte superior de la pantalla debe quedar a la altura de tu línea horizontal
+                                de visión.<br />
+                                <strong>Hombros:</strong> siempre los debes tener relajados.<br />
+                                <strong>Codos:</strong> déjalos apoyados y pegados a tu cuerpo manteniendo un ángulo
+                                entre los 90° y 100°.<br />
+                                <strong>Brazos:</strong> no digites con los brazos en el aire.<br />
+                                <strong>Antebrazos:</strong> apóyalos sobre el escritorio, la silla que uses también
+                                debe contar con apoya brazos
+                            </p>
+                        </div>
+                        <div class="card-footer centrar">
+                            <a href="#" class="btn btn-primary btn-lg my-3">Mas Info</a>
+                        </div>
+                    </div>
+                </li>
+                <li class="col d-flex align-items-stretch">
+                    <div class="card m-2 d-flex align-items-stretch border-0 mt-xl-3">
+                        <img class="card-img-top my-3" src="imagenes/cuidados/lesiones.png" alt="ilustracion curitas"
+                            style="height: 75px; width: 75px; margin: auto;">
+                        <div class="card-body">
+                            <h3 class="card-title h3 centrar mb-3">Lesiones</h3>
+                            <p class="card-text text-start">Nuestra espalda, cuello, cervicales, piernas y hombros son
+                                las zonas más afectadas por las exigencias diarias.<br />
+                                <strong>Escoliosis:</strong> desviación lateral de la columna vertebral.<br />
+                                <strong>Lordosis:</strong> curvatura hacia adentro de la zona inferior de la
+                                espalda.<br />
+                                <strong>Síndrome de fatiga crónica:</strong> esta fatiga no es el tipo de cansancio que
+                                desaparece después del descanso y limita la capacidad de ejecutar las tareas
+                                cotidianas.<br />
+                                <strong>Síndrome del Túnel Carpiano:</strong> esta enfermedad impide el movimiento
+                                natural de la muñeca, causando distintos grados de dolor.<br />
+                                <strong>Epicondilitis:</strong> se considera una variedad de la tendinitis por lo
+                                general esta lesión es causada por la falta de apoyo en el codo del brazo.
+                            </p>
+                        </div>
+                        <div class="card-footer centrar">
+                            <a href="#" class="btn btn-primary btn-lg my-3">Mas Info</a>
+                        </div>
+                    </div>
+                </li>
+                <li class="col d-flex align-items-stretch">
+                    <div class="card m-2 border-0">
+                        <img class="card-img-top my-3" src="imagenes/cuidados/mano.png" alt="ilustracion mano vendada"
+                            style="height: 87px; width: 49px; margin: auto;">
+                        <div class="card-body">
+                            <h3 class="card-title h3 centrar mb-3">Movimientos naturales</h3>
+                            <p class="card-text text-start">Una correcta postura va a acompañada de movimientos
+                                naturales y menos forzados del cuerpo a la hora de estar frente a una pc, como por
+                                ejemplo la distancia para alcanzar un vaso con agua y el esfuerzo que realizamos para
+                                llegar a el, es importante evitar este tipo de acciones con cualquier objeto.</p>
+                        </div>
+                        <div class="card-footer centrar">
+                            <a href="#" class="btn btn-primary btn-lg my-3">Mas Info</a>
+                        </div>
+                    </div>
+                </li>
+                <li class="col d-flex align-items-stretch">
+                    <div class="card m-2 border-0 mt-xl-4">
+                        <img class="card-img-top my-3" src="imagenes/cuidados/vista.png" alt="ilustracion ojo"
+                            style="height: 65px; width: 78px; margin: auto;">
+                        <div class="card-body">
+                            <h3 class="card-title h3 centrar mb-3">Vista</h3>
+                            <p class="card-text text-start">Es importante un buen control sobre la fatiga en los ojos,
+                                la iluminacion ambiental afecta tanto como la luz azul de las pantallas en la vista.
+                                Podemos implementar lentes anti-reflex y blue-light.</p>
+                        </div>
+                        <div class="card-footer centrar">
+                            <a href="#" class="btn btn-primary btn-lg my-3">Mas Info</a>
+                        </div>
+                    </div>
+                </li>
+            </ul>
+        </div>
+
+        <div class="container-fluid">
+            <div class="container">
+                <h3></h3>
+                <p class="h4 centrar my-4"><ins>Te dejamos unas recomendaciones para funcionar en la modalidad de teletrabajo</ins></p>
+            </div>
+            <figure class="row mb-5">
+                <div class="row" id="youtube">
+                    <iframe src="https://www.youtube.com/embed/dg9OrgEEGtY"
+                        allow="accelerometer; autoplay; encrypted-media; gyroscope;" allowfullscreen></iframe>
+                </div>
+            </figure>
+        </div>
+
+
+        <div class="container" id="publicidad">
+            <div class="row" id="lectura">
+                <div class="lector col-lg-6 bg-image mb-lg-0"></div>
+                <div class="col-lg-8 col-xl-6 text-center text-xl-start my-xl-auto my-lg-auto mx-auto px-0">
+                    <h2 class="mt-5 fw-bold my-4 fs-2">Mientras nos leías,<br /> te sentaste derecho?</h2>
+                    <p >Todos somos concientes de nuestros malos habitos frente al uso prolongado de la computadora, pero podemos retomar una vida sana juntos.</p>
+                    <div class="centrar">
+                        <a href="#" class="btn btn-primary btn-lg my-4">Mas Info</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <span id="recomendaciones" class="ancla"></span>
+        <div class="container">
+            <h2 class="centrar my-5 fw-bold fs-1">Recomendación de productos</h2>
+            <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-4">
+                <div class="col">
+                    <div class="card border-0 centrar">
+                        <img src="imagenes/recomendaciones/mouse.png" class="card-img-top" alt="ilustracion mouse"
+                            style="height: 90px; width: 73px; margin: auto;">
+                        <div class="card-body">
+                            <h3 class="card-title centrar fw-bold fs-4 my-3">Mouse</h3>
+                            <p class="card-text">Relacionado con el sindrome de tunel carpiano, es importante el uso del
+                                dispositivo con el brazo reposado lo mas natural posible para una correcta distribución
+                                de peso.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card border-0 centrar">
+                        <img src="imagenes/recomendaciones/teclados.png" class="card-img-top" alt="ilustracion teclados"
+                            style="height: 83px; width: 73px; margin: auto;">
+                        <div class="card-body">
+                            <h3 class="card-title centrar fw-bold fs-4 my-3">Teclados</h3>
+                            <p class="card-text">Movimientos repetitivos de los dedos deben ser lo mas ligeros posibles,
+                                esto se puede lograr utilizando teclas de bajo gramaje de fuerza para evitar estres
+                                muscular.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card border-0 centrar">
+                        <img src="imagenes/recomendaciones/sillas.png" class="card-img-top" alt="ilustracion sillas"
+                            style="height: 82px; width: 65px; margin: auto; margin-bottom: -0.75rem;">
+                        <div class="card-body">
+                            <h3 class="card-title centrar fw-bold fs-4 my-3">Sillas</h3>
+                            <p class="card-text">Es la base para controlar la postura del cuerpo y evitar cualquier tipo
+                                de estres fisico a largo plazo.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card border-0 centrar">
+                        <img src="imagenes/recomendaciones/mesas.png" class="card-img-top" alt="ilustracion mesa"
+                            style="height: 72px; width: 82px; margin: auto;">
+                        <div class="card-body">
+                            <h3 class="card-title centrar fw-bold fs-4 my-3">Mesas</h3>
+                            <p class="card-text">Mejoran la distribución de las cosas frente a nosotros, cuanto mas
+                                espacio y libre de objetos ayudan a controlar la concentracion, ergo la reduccion de
+                                estres.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card border-0 centrar">
+                        <img src="imagenes/recomendaciones/monitores.png" class="card-img-top" alt="ilustracion monitor"
+                            style="height: 71px; width: 82px; margin: auto;">
+                        <div class="card-body">
+                            <h3 class="card-title centrar fw-bold fs-4 my-3">Monitores</h3>
+                            <p class="card-text">Dirigen hacia donde el usuario va a enfocar su atencion, por tanto debe
+                                tener una buena ubicacion y altura, junto con una buena de iluminación para evitar la
+                                fatiga visual.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card border-0 centrar">
+                        <img src="imagenes/recomendaciones/soportes.png" class="card-img-top" alt="ilustracion soporte"
+                            style="height: 82px; width: 54px; margin: auto; margin-bottom: -0.75rem;">
+                        <div class="card-body">
+                            <h3 class="card-title centrar fw-bold fs-4 my-3">Soportes</h3>
+                            <p class="card-text">Ayudan a mantener una correcta altura de monitores, notebooks, tablet o
+                                cualquier dispositivo, util para evitar forzar movimientos innecesarios de la cabeza
+                                para observar.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+        <div class="container">
+            <span id="ideas" class="ancla2"></span>
+            <div class="centrar">
+                <h2 class="my-5 fw-bold fs-1">Ideas Ergonómicas</h2>
+
+                <picture class="my-3">
+                    <source media="(max-width:899px)" srcset="imagenes/ideas/ideas_tablet.png">
+                    <img src="imagenes/ideas/ideas_desktop.png" class="img-fluid" alt="Hombre pensando">
+                </picture>
+
+                <div class="row row-cols-2 row-cols-lg-4 g-4 my-5">
+                    <div class="col">
+                        <div class="card border-0">
+                            <img src="imagenes/ideas/enchufe.png" class="card-img-top mx-auto" alt="ilustracion enchufe"
+                                style="height: 92px; width: 93px;">
+                            <div class="card-body">
+                                <p class="card-text centrar fw-bold">Eco Setup</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="card border-0">
+                            <img src="imagenes/ideas/lampara.png" class="card-img-top mx-auto" alt="ilustracion lampara"
+                                style="height: 94px; width: 94px;">
+                            <div class="card-body">
+                                <p class="card-text centrar fw-bold">Iluminación</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="card border-0">
+                            <img src="imagenes/ideas/regla.png" class="card-img-top mx-auto" alt="ilustracion regla"
+                                style="height: 94px; width: 55px;">
+                            <div class="card-body">
+                                <p class="card-text centrar fw-bold">Alturas</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="card border-0">
+                            <img src="imagenes/ideas/taza.png" class="card-img-top mx-auto" alt="ilustracion taza"
+                                style="height: 94px; width: 94px;">
+                            <div class="card-body">
+                                <p class="card-text centrar fw-bold">Descanso</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <span id="contacto" class="ancla3"></span>
+        <div class="container my-5">
+            <h2 class="centrar my-5 fw-bold fs-1">Preguntas Frecuentes</h2>
+            <div class="row">
+
+                <div class="col-12 col-xl-6 accordion order-xl-1 mb-5" id="preguntas"></div>
+                <div class="col-12 col-xl-6 accordion" id="acordeon">
+                    <div class="accordion-item">
+                    <div class="accordion-header" id="headingOne">
+                        <h3 class="accordion-button" data-bs-toggle="collapse" data-bs-target="#pregunta1" aria-expanded="true" aria-controls="pregunta1">
+                        Me sucede muy seguido que tengo los pies frios, ¿podría ser por algo en especial?
+                        </h3>
+                    </div>
+                    <div id="pregunta1" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#acordeon">
+                        <div class="accordion-body">
+                        <p>La sensación de pies fríos se ve relacionado a un corte de circulación de sangre, en este caso probablemente sea por la altura de la silla que se este usando, que impide apoyar los pies naturalmente en el suelo y que a su vez genera una presión en la parte inferior del muslo, cortando la circulación. Reduce la altura de la silla o podrías utilizar un reposa pies.</p>
+                        </div>
+                    </div>
+                    </div>
+                    <div class="accordion-item">
+                    <h3 class="accordion-header" id="headingTwo">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                            Me duele la espalda a las pocas horas de trabajar en la computadora, ¿que me recomiendan?
+                        </button>
+                    </h3>
+                    <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#acordeon">
+                        <div class="accordion-body">
+                            Estar frente a la computadora puede ocasionar ciertas molestias en el cuerpo, además del conocido dolor de hombros y espalda a causa del estrés. Si has estado trabajando en casa con una oficina improvisada que quizá no tiene las condiciones óptimas, las molestias pueden empeorar. Recomendamos una de las sillas ergonómicas que puedas encontrar en nuestra web.
+                        </div>
+                    </div>
+                    </div>
+                    <div class="accordion-item">
+                    <h3 class="accordion-header" id="headingThree">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                            Compre un teclado y siento que me duelen las manos al tiempo de estar usandolo, ¿lo estoy usando mal?
+                        </button>
+                    </h3>
+                    <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#acordeon">
+                        <div class="accordion-body">
+                            El dolor en las manos se puede relacionar directamente con el mal reposo de las mismas sobre una superficie dura a la hora de escribir, sugerimos el uso de un reposamuñecas. Por otro lado ciertos teclados mecánicos poseen teclas con un gramaje de fuerza de acción especifico que tambien puede afectarnos, por exceso de fuerza en los dedos.
+                        </div>
+                    </div>
+                    </div>
+                </div>
+                
+            </div>
+        </div>
+    </main>
+
+    <aside class="container" id="formulario">
+        <div class="row">
+
+            <div class="col-12 col-lg-6 order-lg-1">
+                <div class="row">
+                    <h2 class="centrar mt-auto h1 fw-bold">¿Necesitas atención personalizada?</h2>
+                    <p class="fs-6 fs-lg-5 ">No todos podemos recibir los mismos consejos, dependiendo del entorno que rodea nuestra area de trabajo debemos tomar medidas específicas. <br /><span class="fs-6 fs-lg-5">Te animamos a contactarnos!</span></p>
+                </div>
+            </div>
+            <div class="col-12 col-lg-6">
+                <form action="http://recursos.grodriguez.com.ar/FORM/" method="post"
+                    enctype="application/x-www-form-urlencoded">
+                    <label>Nombre</label>
+                    <input name="nombre" type="text" placeholder="Nombre" required>
+
+                    <label>Apellido</label>
+                    <input name="apellido" type="text" placeholder="Apellido" required>
+
+                    <label>Mail</label>
+                    <input name="e-mail" type="email" placeholder="E-mail" required>
+
+                    <label>Comentario</label>
+                    <textarea name="comentario" cols="10" rows="10" placeholder="Comentario"></textarea>
+
+                    <div>
+                        <input type="reset" value="Limpiar">
+                        <input type="submit" value="Enviar">
+                    </div>
+                </form>
+            </div>
+
+        </div>
+    </aside>
+
+    <div class="container" id="enviado">
+        <p>Gracias por contactarnos! Pronto recibiras nuestras mejores recomendaciones. <a href="#formulario">Volver</a></p>
+    </div>
+
+    <footer class="container-fluid px-0 fondo1"> 
+
+        <div class="container mt-5">
+            <ul class="mb-0 ms-auto">
+                <li id="instagram"><a href="https://www.instagram.com/">Instagram</a></li>
+                <li id="facebook"><a href="https://www.facebook.com/">Facebook</a></li>
+                <li id="twitter"><a href="https://twitter.com/?lang=es">Twitter</a></li>
+            </ul>
+            <ul class="mb-0">
+                <li><a href="#">Política de privacidad</a></li>
+                <li><a href="#">Política de coockies</a></li>
+                <li><a href="#">Términos legales</a></li>
+                <li><a href="#">© Electronic Cares S.A.</a></li>
+            </ul>
+        </div>
+
+        <p class="m-0">Materia: Interacción con Dispositivos Móviles | Docente: Omar Toyos | Segundo Parcial: Bootstrap | Comisión: DWT2A| Escuela Da Vinci: Segundo Cuatrimestre<br /> Copyright 2021 Leandro Vedia</p>
+
+    </footer>
+
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script>
+        const btns = document.querySelectorAll('.nav-item');
+        const barra = document.querySelector(".navbar-collapse");
+        const cierre = new bootstrap.Collapse(barra, {
+            toggle: false
+        });
+        btns.forEach((btn) => {
+            btn.addEventListener('click', () => {
+                if (barra.classList.contains('show')) {
+                    cierre.toggle()
+                }
+            })
+        });
+    </script>
+
+</body>
+
+</html>
