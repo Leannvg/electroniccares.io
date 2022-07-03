@@ -1,6 +1,0 @@
-Alumno: Leandro Gabriel Vedia
-Carrera: Diseño y programación web
-Turno: Tarde
-Horario: 14hs a 16hs (Martes)
-
-Email: leandro.vedia@davinci.edu.ar
